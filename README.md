@@ -11,46 +11,46 @@ The notebooks are meant to be played with: change parameters, break things, and 
 
 ## Course outline
 
-1. **Galaxies as Dynamical Systems**
+1. **Galaxies as Dynamical Systems**  
    Characteristic scales, crossing and relaxation times, the continuum limit, distribution functions, and the self-consistency problem.
 
-2. **Newtonian Gravitation and Potential Theory**
+2. **Newtonian Gravitation and Potential Theory**  
    Gravitational fields and potentials, Poisson's equation, Green's functions, shell theorems, and potential–density pairs.
 
-3. **Orbits in Spherical Potentials**
+3. **Orbits in Spherical Potentials**  
    Conserved quantities, effective potentials, turning points, circular orbits, radial motion, and apsidal precession.
 
-4. **Orbits in Axisymmetric Potentials**
+4. **Orbits in Axisymmetric Potentials**  
    Meridional motion, circular frequencies, epicyclic motion, guiding centres, rotation curves, and Oort constants.
 
-5. **Rotating and Non-Axisymmetric Potentials**
+5. **Rotating and Non-Axisymmetric Potentials**  
    Rotating frames, the Jacobi integral, zero-velocity curves, barred potentials, resonances, and surfaces of section.
 
-6. **Actions, Angles, and Resonances**
+6. **Actions, Angles, and Resonances**  
    Action–angle variables, invariant tori, resonant dynamics, the pendulum approximation, phase mixing, and stream formation.
 
-7. **Phase-Space Dynamics**
+7. **Phase-Space Dynamics**  
    The collisionless Boltzmann equation, Liouville's theorem, characteristics, phase mixing, and coarse graining.
 
-8. **Equilibrium Distribution Functions**
+8. **Equilibrium Distribution Functions**  
    Jeans' theorem, ergodic and anisotropic distribution functions, Eddington inversion, and phase-space consistency.
 
-9. **Jeans Equations and the Virial Theorem**
+9. **Jeans Equations and the Virial Theorem**  
    Velocity moments, spherical and axisymmetric Jeans equations, mass estimators, anisotropy, and the tensor virial theorem.
 
-10. **Stellar Disks**
+10. **Stellar Disks**  
     Thin-disk dynamics, vertical equilibrium, epicyclic motion, disk distribution functions, and local kinematics.
 
-11. **Stability and Collective Phenomena**
+11. **Stability and Collective Phenomena**  
     Linear perturbations, Jeans instability, disk stability, the Toomre criterion, and collective gravitational response.
 
-12. **Spiral Structure and Bars**
+12. **Spiral Structure and Bars**  
     Density waves, swing amplification, spiral resonances, bar-supporting orbit families, and secular angular-momentum transport.
 
-13. **Encounters, Relaxation, and Dynamical Friction**
+13. **Encounters, Relaxation, and Dynamical Friction**  
     Two-body encounters, relaxation, diffusion in velocity space, mass segregation, and Chandrasekhar dynamical friction.
 
-14. **Tides, Streams, and Galactic Evolution**
+14. **Tides, Streams, and Galactic Evolution**  
     Tidal radii, stripping, tidal streams, satellite disruption, mergers, and secular evolution.
 
 ## Exercise notebooks
@@ -68,16 +68,63 @@ For later chapters (orbit integration in realistic potentials, actions and angle
 
 ## Running the notebooks with uv
 
-The recommended way to manage the Python environment is with **uv**.
+The recommended way to manage the Python environment is with **uv**, a fast, single-binary Python package and project manager. You do not need Python pre-installed — uv can fetch it for you.
 
-After installing uv, clone the repository and run:
+### Installing uv
+
+**macOS / Linux** — open a terminal and run:
+
+```bash
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+
+**Windows** — open PowerShell and run:
+
+```powershell
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+```
+
+If you already have Python and pip/pipx set up, `pip install uv` or `pipx install uv` also works.
+
+Check the install with:
+
+```bash
+uv --version
+```
+
+(You may need to restart your terminal first so `uv` is on your `PATH`.)
+
+### Setting up the environment
+
+Clone the repository:
+
+```bash
+git clone https://github.com/blhuillier/2026B_Galactic_Dynamics.git
+cd 2026B_Galactic_Dynamics
+```
+
+Create a virtual environment (any Python ≥ 3.11 works; uv will pick up whatever you have installed, or pass `--python 3.x` to request a specific version, downloading it if needed):
+
+```bash
+uv venv .venv --prompt GalDyn
+```
+
+Activate it:
+
+```bash
+source .venv/bin/activate      # macOS / Linux
+.venv\Scripts\activate         # Windows (Command Prompt)
+.venv\Scripts\Activate.ps1     # Windows (PowerShell)
+```
+
+Your shell prompt should now show `(GalDyn)`. Install the project's dependencies and launch Jupyter Lab:
 
 ```bash
 uv sync
 uv run jupyter lab
 ```
 
-`uv sync` creates the project environment from `pyproject.toml`. Once Jupyter Lab is open, navigate to the relevant chapter directory under `notebooks/` and open the notebook.
+Once Jupyter Lab is open, navigate to the relevant chapter directory under `notebooks/` and open the notebook.
 
 ## Licence
 
@@ -87,6 +134,6 @@ This repository does not include the lecture notes themselves; it accompanies th
 
 ## Author
 
-Benjamin L'Huillier
-Department of Physics and Astronomy
+Benjamin L'Huillier  
+Department of Physics and Astronomy  
 Sejong University
