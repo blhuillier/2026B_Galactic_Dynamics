@@ -1,0 +1,24 @@
+[project]
+name = "galactic-dynamics-exercises"
+version = "0.1.0"
+description = "Student exercise notebooks for Galactic Dynamics, with the reusable galdyn toolkit."
+requires-python = ">=3.11"
+dependencies = [
+    "astropy>=6.0",
+    "matplotlib>=3.8",
+    "numpy>=1.26",
+    "scipy>=1.12",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.3.0",
+    "jupyterlab>=4.6.2",
+]
+
+[build-system]
+requires = ["uv_build>=0.11.32,<0.12"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "galdyn"

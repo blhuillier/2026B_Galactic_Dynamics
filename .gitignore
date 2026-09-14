@@ -1,0 +1,20 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[codz]
+*.egg-info/
+
+# Environments
+.venv/
+env/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Editors
+.vscode/
+.idea/

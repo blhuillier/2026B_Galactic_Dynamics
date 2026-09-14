@@ -1,0 +1,1 @@
+"""Utilities for the Stellar Dynamics and Gravitation course."""
