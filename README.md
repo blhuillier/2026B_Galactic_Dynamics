@@ -11,48 +11,57 @@ The notebooks are meant to be played with: change parameters, break things, and 
 
 ## Course outline
 
+Chapter numbering follows the lecture notes.
+
+### Part I — Gravitational and Dynamical Foundations
+
 1. **Galaxies as Dynamical Systems**  
-   Characteristic scales, crossing and relaxation times, the continuum limit, distribution functions, and the self-consistency problem.
+   Galactic components, characteristic scales, dynamical timescales, and the distinction between collisionless and collisional systems.
 
 2. **Newtonian Gravitation and Potential Theory**  
-   Gravitational fields and potentials, Poisson's equation, Green's functions, shell theorems, and potential–density pairs.
+   Poisson's equation, Green's functions, spherical and axisymmetric systems, multipole expansions, and common galactic models.
 
-3. **Orbits in Spherical Potentials**  
-   Conserved quantities, effective potentials, turning points, circular orbits, radial motion, and apsidal precession.
+3. **Elements of Classical Mechanics**  
+   Lagrangian and Hamiltonian mechanics, Poisson brackets, integrals of motion, canonical transformations, integrable motion, and action–angle variables.
 
-4. **Orbits in Axisymmetric Potentials**  
-   Meridional motion, circular frequencies, epicyclic motion, guiding centres, rotation curves, and Oort constants.
+### Part II — Spherical and Collisionless Stellar Systems
 
-5. **Rotating and Non-Axisymmetric Potentials**  
-   Rotating frames, the Jacobi integral, zero-velocity curves, barred potentials, resonances, and surfaces of section.
+4. **Orbits in Spherical Potentials**  
+   Effective potentials, circular orbits, orbital frequencies, apsidal precession, actions and angles, and numerical orbit integration.
 
-6. **Actions, Angles, and Resonances**  
-   Action–angle variables, invariant tori, resonant dynamics, the pendulum approximation, phase mixing, and stream formation.
+5. **Phase-Space Dynamics and Collisionless Equilibria**  
+   Distribution functions, Liouville's theorem, the collisionless Boltzmann equation, Jeans' theorem, phase mixing, and violent relaxation.
 
-7. **Phase-Space Dynamics**  
-   The collisionless Boltzmann equation, Liouville's theorem, characteristics, phase mixing, and coarse graining.
+6. **Spherical Distribution Functions and Mass Modelling**  
+   Eddington inversion, velocity moments and anisotropy, the spherical Jeans equation, projected observables, the mass–anisotropy degeneracy, and the virial theorem.
 
-8. **Equilibrium Distribution Functions**  
-   Jeans' theorem, ergodic and anisotropic distribution functions, Eddington inversion, and phase-space consistency.
+### Part III — Galactic Disks
 
-9. **Jeans Equations and the Virial Theorem**  
-   Velocity moments, spherical and axisymmetric Jeans equations, mass estimators, anisotropy, and the tensor virial theorem.
+7. **Gravitation, Rotation, and Kinematics of Galactic Disks**  
+   Thin-disk gravity, exponential disks, flattened potential–density pairs, rotation curves, and local galactic rotation.
 
-10. **Stellar Disks**  
-    Thin-disk dynamics, vertical equilibrium, epicyclic motion, disk distribution functions, and local kinematics.
+8. **Orbits in Axisymmetric Potentials**  
+   Meridional motion, circular orbits and guiding centres, the epicyclic approximation, the third integral, and actions in axisymmetric potentials.
 
-11. **Stability and Collective Phenomena**  
-    Linear perturbations, Jeans instability, disk stability, the Toomre criterion, and collective gravitational response.
+9. **Equilibrium Stellar Disks**  
+   Disk distribution functions, cold and warm disks, Jeans equations in cylindrical coordinates, asymmetric drift, and vertical equilibrium.
 
-12. **Spiral Structure and Bars**  
-    Density waves, swing amplification, spiral resonances, bar-supporting orbit families, and secular angular-momentum transport.
+10. **Stability and Collective Phenomena**  
+    Local axisymmetric stability, the relation to Jeans instability, waves in stellar disks, swing amplification, and bending instabilities.
+
+### Part IV — Non-Axisymmetry and Galactic Evolution
+
+11. **Spiral Structure and Bars**  
+    Rotating reference frames, the Jacobi integral, corotation and Lindblad resonances, bar-supporting orbit families, and angular-momentum exchange with a pattern.
+
+12. **Resonant and Chaotic Dynamics**  
+    Perturbations in action–angle variables, resonant trapping, separatrices and resonance overlap, surfaces of section, chaos diagnostics, and adiabatic invariance.
 
 13. **Encounters, Relaxation, and Dynamical Friction**  
-    Two-body encounters, relaxation, diffusion in velocity space, mass segregation, and Chandrasekhar dynamical friction.
+    Two-body encounters, diffusion in velocity space, the relaxation time, mass segregation, evaporation, and dynamical friction.
 
 14. **Tides, Streams, and Galactic Evolution**  
-    Tidal radii, stripping, tidal streams, satellite disruption, mergers, and secular evolution.
-
+    Tidal fields, the Hill approximation and tidal radius, tidal shocks, satellite disruption, stellar streams as probes of the potential, mergers, and secular evolution.
 ## Exercise notebooks
 
 Notebooks are added over the course of the semester as chapters are covered:
