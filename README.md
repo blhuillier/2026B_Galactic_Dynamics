@@ -68,6 +68,8 @@ Notebooks are added over the course of the semester as chapters are covered:
 
 - [Chapter 1 — Galaxies as Dynamical Systems](notebooks/chapter_01/)
 - [Chapter 2 — Newtonian Gravitation and Potential Theory](notebooks/chapter_02/)
+- [Chapter 3 — Elements of Classical Mechanics](notebooks/chapter_03/)
+- [Chapter 4 — Orbits in Spherical Potentials](notebooks/chapter_04/)
 
 ## The `galdyn` toolkit
 
