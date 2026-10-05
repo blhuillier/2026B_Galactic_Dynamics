@@ -70,6 +70,7 @@ Notebooks are added over the course of the semester as chapters are covered:
 - [Chapter 2 — Newtonian Gravitation and Potential Theory](notebooks/chapter_02/)
 - [Chapter 3 — Elements of Classical Mechanics](notebooks/chapter_03/)
 - [Chapter 4 — Orbits in Spherical Potentials](notebooks/chapter_04/)
+- [Chapter 6 — Spherical Distribution Functions and Mass Modelling](notebooks/chapter_06/)
 
 ## The `galdyn` toolkit
 
